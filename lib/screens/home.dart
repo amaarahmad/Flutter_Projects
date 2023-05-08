@@ -15,6 +15,7 @@ class _HomeState extends State<Home> {
           itemCount:100 ,
           itemBuilder: (context,index){
         return Text('data '+ index.toString());
+
       }),
 
     );
